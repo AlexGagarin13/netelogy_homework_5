@@ -2,7 +2,9 @@ object WallService {
     private var posts = emptyArray<Post>()
 
     fun add(post: Post): Post{
-        posts +=post
-        return posts.last()
+        TODO()
+    }
+    fun update(post: Post): Boolean {
+        TODO()
     }
 }
