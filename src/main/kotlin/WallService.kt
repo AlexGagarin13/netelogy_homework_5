@@ -1,4 +1,4 @@
-object WallService {
+class WallService {
     private var posts = emptyArray<Post>()
     private var PostId: Int = 0
 
@@ -14,10 +14,9 @@ object WallService {
     }
 
     fun update(post: Post): Boolean {
-        for ((index, post ) in posts.withIndex()) {
-            if (post.id == posts[index].id) {
+        for ((index, posted) in posts.withIndex()) {
+            if (post.id == posted.id) {
                 posts[index] = post.copy(
-                    id = post.id,
                     fromId = post.fromId,
                     createdBy = post.createdBy,
                     text = post.text,
@@ -39,10 +38,10 @@ object WallService {
                     donut = post.donut,
                     postponedId = post.postponedId
                 )
+                println(posts[index])
+                return true
             }
-            return true
         }
         return false
     }
-
 }
