@@ -9,7 +9,7 @@ class WallService {
 
     fun add(post: Post): Post {
         val newPost = post.copy(id = generateId())
-        posts += newPost
+        posts += newPostID
         return posts.last()
     }
 
