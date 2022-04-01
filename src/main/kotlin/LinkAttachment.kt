@@ -1,2 +1,2 @@
-class LinkAttachment(override val type: String = "link", val certainClass: Link) : Attachment {
+class LinkAttachment(override val type: String = "link", val link: Link) : Attachment {
 }

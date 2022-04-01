@@ -6,7 +6,7 @@ class Link(
     val photo: Any?,
     val product: Any?,
     val button: Any?,
-    val preview_page: String,
-    val preview_url: String
+    val previewPage: String,
+    val previewUrl: String
 ) {
 }

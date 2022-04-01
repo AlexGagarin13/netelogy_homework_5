@@ -10,11 +10,10 @@ class WallService {
         for (post in posts) {
             if (post.id == comment.postId) {
                 comments += comment
-            } else {
-                throw PostNotFoundException("Такого поста не существует!")
+                return comments.last()
             }
         }
-        return comments.last()
+        throw PostNotFoundException("Такого поста не существует!")
     }
 
 
