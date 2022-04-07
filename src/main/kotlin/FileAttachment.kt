@@ -1,3 +1,3 @@
-class FileAttachment(override val type: String = "file", val file: AttachedFile) : Attachment {
-}
 
+class FileAttachment(override val type: String = "file", val file: AttachedFile): Attachment {
+}

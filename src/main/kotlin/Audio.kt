@@ -5,12 +5,12 @@ data class Audio(
     val title: String,
     val duration: Int,
     val url: String,
-    val lyrics_id: Int?,
-    val album_id: Int?,
-    val genre_id: Int,
+    val lyricsId: Int?,
+    val albumId: Int?,
+    val genreId: Int,
     val date: Int,
-    val no_search: Boolean,
-    val is_hq: Boolean
+    val noSearch: Boolean,
+    val isHq: Boolean
 ) {
 
 }
