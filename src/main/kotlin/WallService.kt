@@ -27,3 +27,4 @@ class WallService {
         return false
     }
 }
+
