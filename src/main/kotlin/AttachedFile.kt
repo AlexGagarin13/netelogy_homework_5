@@ -1,4 +1,4 @@
-class AttachedFile (
+data class AttachedFile(
     val id: Int,
     val ownerId: Int,
     val title: String,
@@ -8,5 +8,5 @@ class AttachedFile (
     val date: Int,
     val type: Int,
     val preview: Any
-        ){
+) {
 }

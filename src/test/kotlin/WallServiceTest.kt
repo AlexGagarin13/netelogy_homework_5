@@ -30,7 +30,9 @@ class WallServiceTest {
                 null,
                 null,
                 null,
+
                 null,
+
                 null,
                 true,
                 true,
@@ -72,7 +74,9 @@ class WallServiceTest {
                 null,
                 null,
                 null,
+
                 null,
+
                 null,
                 true,
                 true,
@@ -116,6 +120,7 @@ class WallServiceTest {
             66
         )
 
+
         val result = service.update(update)
 
         assertTrue(result)
@@ -147,7 +152,9 @@ class WallServiceTest {
                 null,
                 null,
                 null,
+
                 null,
+
                 null,
                 true,
                 true,
@@ -179,7 +186,9 @@ class WallServiceTest {
             null,
             null,
             null,
+
             null,
+
             null,
             true,
             true,
